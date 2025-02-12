@@ -6,7 +6,7 @@ The paper will be published at AAMAS 2025 and an Arxiv version can be found here
 For executing the code, you need Gurobi. Once gurobi is installed, please execute the command 'pip install -r requirements.txt' to download all required packages. 
 
 Once this is done, you should be able to execute our simulations with synthetic data (execute Parallel.py) and the Spotify Daily dataset (execute SequentialRealWorld.py).
-Executing the code on the Spotify Daily dataset requires you to download this dataset (https://preflib.github.io/PrefLib-Jekyll/dataset/00047), move the dataset to the same directory as this file, and rename the directory of the dataset to "spotifydaily".
+Executing the code on the Spotify Daily dataset requires you to download this dataset (https://preflib.github.io/PrefLib-Jekyll/dataset/00047), move the dataset to the same directory as this file, and rename the directory of the dataset to "spotifyday".
 Additionally, we provide the file Plotting.py, which can be used to create plots from the data created by our simulations. Note, however, that the plots in the 
 paper were created by different means (we transformed the data to csv files and plot these directly with latex). 
 
